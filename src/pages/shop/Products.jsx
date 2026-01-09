@@ -18,14 +18,13 @@ const Products = ({ headline }) => {
                 </div>
             </div>
 
-
-                <div>
-                    {
-                        products.map((product) => (
-                            <div key={product.id}>{product.name}</div>
-                        ))
-                    }
-                </div>
+            <div>
+                {
+                    products.map((product) => (
+                        <div key={product.id}>{product.name}</div>
+                    ))
+                }
+            </div>
         </section>
     )
 }

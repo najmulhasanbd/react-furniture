@@ -6,9 +6,9 @@ import Products from '../shop/Products'
 const Home = () => {
   return (
     <>
-    <Hero />
-    <WhyChoose />
-    <Products headline=" Best Selling Products" />
+      <Hero />
+      <WhyChoose />
+      <Products headline=" Best Selling Products" />
     </>
   )
 }
